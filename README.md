@@ -1,6 +1,6 @@
 # 中国天气 MCP 服务
 
-[[smithery badge](https://smithery.ai/badge/@jikime/py-mcp-cn-weather)](https://smithery.ai/server/@jikime/py-mcp-cn-weather) [](https://badge.mcpx.dev?type=server 'MCP Server') [版本](https://img.shields.io/badge/version-1.1.10-green) [许可证](https://img.shields.io/badge/license-MIT-blue)
+
 
 本 MCP（多平台通信协议）服务提供了对中国气象局 API 的访问，允许 AI 智能体获取中国地区的天气预报信息。
 
