@@ -33,8 +33,8 @@
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/jikime/py-mcp-cn-weather.git
-cd py-mcp-cn-weather
+git clone [https://github.com/jikime/py-mcp-cn-weather.git](https://github.com/SunsetZt/China_Weather_Search_MCP)
+cd China_Weather_Search_MCP
 ```
 
 2. 安装 uv
@@ -60,18 +60,6 @@ CN_WEATHER_API_KEY=your_api_key_here
 5. 将 Excel 中的网格坐标数据迁移到 SQLite 数据库：
 ```bash
 uv run src/migrate.py
-```
-
-#### 使用 Docker 安装
-
-1. 构建镜像：
-```bash
-docker build -t py-mcp-cn-weather .
-```
-
-2. 启动容器：
-```bash
-docker run py-mcp-cn-weather
 ```
 
 #### 本地运行
@@ -136,29 +124,6 @@ npx -y @smithery/cli install @jikime/py-mcp-cn-weather --client claude
 }
 ```
 
-#### Docker 用户
-```json
-{
-  "mcpServers": {
-    "中国天气工具箱": {
-      "command": "docker",
-      "args": [
-        "run",
-        "-i",
-        "--rm",
-        "py-mcp-cn-weather"
-      ]
-    }
-  }
-}
-```
-
-### 在 Claude 中使用
-
-配置完成后，你可以向 Claude 提出如下问题：
-- “北京市朝阳区的天气怎么样？”
-- “请告诉我上海市浦东新区的天气预报”
-- “广东省广州市天河区现在的温度是多少？”
 
 ## API 参考
 
